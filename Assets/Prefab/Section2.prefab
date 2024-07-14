@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 1388447852374906079}
   - component: {fileID: 5768270826803767882}
   - component: {fileID: 7646288875224396168}
+  - component: {fileID: 6467674610576747098}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -128,11 +129,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42a1d618b01ef7f49a1cdbfa66916f9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpawnPoint: 0
   pos:
   - {fileID: 2134690277629921909}
   - {fileID: 5577101250997599474}
   - {fileID: 5686628270639132107}
   - {fileID: 7216185810566823545}
+--- !u!61 &6467674610576747098
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2376404161818493512}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &3864488712346753707
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,11 +229,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42a1d618b01ef7f49a1cdbfa66916f9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpawnPoint: 0
   pos:
   - {fileID: 2134690277629921909}
   - {fileID: 7216185810566823545}
   - {fileID: 5686628270639132107}
   - {fileID: 5577101250997599474}
+  - {fileID: 1388447852374906079}
 --- !u!1 &3904783903107640209
 GameObject:
   m_ObjectHideFlags: 0
